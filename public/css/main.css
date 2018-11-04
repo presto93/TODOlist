@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+div {
+    vertical-align: top;
+}
+td {
+    /*border: 2px solid yellow;*/
+	border-bottom: 1px dashed gray;
+    padding: 10px 0;
+	margin: 5px;
+}
+table {
+	width: 100%;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+}
+#noti-container button{
+	
+	width: 130px;
+	height: 40px;
+}
+#container {
+    width: 1200px;
+	margin: 0 auto;
+}
+.inner-container {
+    display: inline-block;
+	padding: 0 20px;
+}
+.main {
+    width: 800px;
+}
+.noti {
+    width: 250px;
+}
+#data-table td:nth-child(1) {
+	width: 150px;
+}
+#data-table td:nth-child(2) {
+	width: 270px;
+}
+#data-table td:nth-child(3) {
+	width: 100px;
+}
+#data-table td:nth-child(4) {
+	text-align: center;
+	width: 30px;
+}
+form td {
+	border: 0px;
+}
+table {
+    width: 100%;
+    margin: auto 0;
+}
+#content div table {
+	width: 710px;
+}
+.add-button, .mod-button {
+	width: 70px;
+	height: 40px;
+}
+#content div table tr:nth-child(1) td:nth-child(1) {
+	width: 90px;
+}
+#content div table tr:nth-child(1) td:nth-child(2) {
+	width: 40px;
+}
+#content div table tr:nth-child(1) td:nth-child(3) {
+	width: 40px;
+}
+.table-row {
+}
+#add-form div {
+    padding: 0px;
+    display: inline-block;
+}
+#mod-form div {
+    padding: 0px;
+    display: inline-block;
+}
+#complete-check {
+    text-align: right;
+}
+#button-holder {
+	margin: auto 0;
+	padding: 10px;
+}
+#menu-container {
+    z-index: 1000;
+    position: absolute;
+    background-color: white;
+	width: 100px;
+    border: 1px solid black;
+}
+#menu-container div {
+	padding: 10px;
+}
+th {
+	padding: 10px 0;
+}
+#noti-top div {
+    display: inline-block;
+}
+#time {
+    width: 200px;
+}
+.go-complete {
+    text-align: right;
+	padding: 10px;
+}
+#time, #close {
+	height: 35px;
+}
+input {
+	padding: 10px;
+}
+#time p{
+	font-size: 10px;
+}
+textarea {
+	padding: 10px;
+}

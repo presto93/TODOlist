@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TODO LIST</title>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="javascript/main.js"></script>
+</head>
+
+<body>
+<div id='container'>
+  <div class='inner-container main'>
+    <div id='title'>
+      <h2>TODO List</h2>
+    </div>
+    <div id='add-form'>
+      <form>
+        <div>
+          <table>
+            <tr>
+              <td><input type="text" name="title" placeholder='title' required maxlength="45" size="45"></td>
+              <td><input type="date" name="date"></td>
+              <td><input type="time" name="time"></td>
+            </tr>
+            <tr>
+              <td colspan="3"><textarea type="text" name="detail" placeholder='detail' required maxlength="512" cols="100" rows="5"></textarea></td>
+            </tr>
+          </table>
+        </div>
+        <div id='button-holder'>
+          <button class="add-button" onClick="add_clicked()">add</button>
+        </div>
+      </form>
+    </div>
+    <div id='content'> </div>
+  </div>
+  <div class='inner-container' id='noti-container'> </div>
+</div>
+</body>
+</html>
