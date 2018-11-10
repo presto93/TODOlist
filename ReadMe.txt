@@ -1,3 +1,6 @@
+접속 주소 : 220.94.12.24:3000/main
+/* 서버가 매우 느립니다. 기다려주세요. */
+
 https://nodejs.org/ko/download/
 에서 node.js 설치
 
