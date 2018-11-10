@@ -1,17 +1,32 @@
 https://nodejs.org/ko/download/
-¿¡¼­ node.js ¼³Ä¡
+ì—ì„œ node.js ì„¤ì¹˜
 
 $ npm init
 $ npm install express
 $ npm install body-parser
 $ npm install mysql
-ÆĞÅ°Áö ¼³Ä¡
+íŒ¨í‚¤ì§€ ì„¤ì¹˜
 
 node app.js
-¼­¹ö ½ÇÇà
+ì„œë²„ ì‹¤í–‰
 
 server/main
-À¸·Î Á¢¼Ó
+ìœ¼ë¡œ ì ‘ì†
 
-Âü°íÀÚ·á
-[JS] ÇÑ±Û Á¶»çºÙÀÌ±â https://taegon.kim/archives/24
+ì°¸ê³ ìë£Œ
+[JS] í•œê¸€ ì¡°ì‚¬ë¶™ì´ê¸° https://taegon.kim/archives/24
+
+
+Table DDL
+
+CREATE TABLE `todo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(45) NOT NULL,
+  `detail` varchar(512) DEFAULT NULL,
+  `priority` double NOT NULL DEFAULT '0',
+  `completed` tinyint(4) NOT NULL DEFAULT '0',
+  `deadline` datetime DEFAULT NULL,
+  `noti` int(11) NOT NULL DEFAULT '0' COMMENT '0 : unnotificated\nn : notificated\n-1 : deleted',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `id_UNIQUE` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=83 DEFAULT CHARSET=utf8
